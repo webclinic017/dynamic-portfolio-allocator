@@ -6,8 +6,8 @@
 
 <div align="center">
 
-  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/eshinhw/stock-trading-risk-calculator)
-  ![GitHub issues](https://img.shields.io/github/issues/eshinhw/stock-trading-risk-calculator)
-  ![GitHub pull requests](https://img.shields.io/github/issues-pr/eshinhw/stock-trading-risk-calculator)
+  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/eshinhw/dynamic-portfolio-allocator)
+  ![GitHub issues](https://img.shields.io/github/issues/eshinhw/dynamic-portfolio-allocator)
+  ![GitHub pull requests](https://img.shields.io/github/issues-pr/eshinhw/dynamic-portfolio-allocator)
   
 </div>
