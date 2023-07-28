@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![logo](https://github.com/eshinhw/stock-trading-risk-calculator/assets/41933169/4d616ed3-ee7d-437e-9e0f-080627459ff2)
+  ![logo](https://github.com/eshinhw/stock-trading-risk-calculator/assets/41933169/16042ca8-b2f5-459f-a2f5-05290c313af8)
 
 </div>
 
@@ -11,4 +11,3 @@
   ![GitHub pull requests](https://img.shields.io/github/issues-pr/eshinhw/stock-trading-risk-calculator)
   
 </div>
-
