@@ -11,3 +11,35 @@
   ![GitHub pull requests](https://img.shields.io/github/issues-pr/eshinhw/dynamic-portfolio-allocator)
   
 </div>
+
+## Motivation
+
+Building an investment portfolio means determining the right mix of assets to help you reach your goals for the short and long term. One of the more conventional approaches financial advisors and experts suggest is the 60/40 portfolio. The 60/40 strategy involves constructing portfolios which are allocated 60% to equities and 40% to bonds. Going this route can make portfolio building simple, but it’s not right for everyone.
+
+There have been tremendous amount of research around effective portfolio allocation strateigies which can offer better performances in terms of rate of returns and risk management persepectives.
+
+In this project, an in-depth statistical research and historical backtesting will be conducted on various portfolio allocation strategies to determine their effectiveness compared to the benchmark in the market.
+
+## Portfolio Allocation Strategies
+
+### Fixed Asset Allocations
+
+- Classic 60/40 Portfolio
+- Permanent Portfolio
+- All Weather Portfolio
+
+### Momentum Based Asset Allocations
+
+- Global Equities Momentum (GEM)
+- Global Balanced Momentum (GBM)
+
+### Keller's Asset Allocations
+
+
+
+
+
+
+
+
+
