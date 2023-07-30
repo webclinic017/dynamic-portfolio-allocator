@@ -24,22 +24,33 @@ def update_table():
     return df.to_dict("records")
 
 
-def update_graph():
+def update_returns_graph():
     df = pd.DataFrame()
 
     df[str(cp)] = cp.port_cum_returns()
     df[str(pp)] = pp.port_cum_returns()
     df[str(allSeason)] = allSeason.port_cum_returns()
+    df.dropna(inplace=True)
     df.reset_index(inplace=True)
-    print(df)
-    return px.line(df, x="Date", y=[col for col in df.columns if col != "Date"], title="Historical Portfolio Returns")
-    # return px.line(df, x="Date", y=[col for col in df.columns if col != "Date"])
+    return px.line(df, x="Date", y=[col for col in df.columns if col != "Date"], title="Historical Returns")
+
+
+def update_drawdown_graph():
+    df = pd.DataFrame()
+
+    df[str(cp)] = cp.drawdown()
+    df[str(pp)] = pp.drawdown()
+    df[str(allSeason)] = allSeason.drawdown()
+    df.dropna(inplace=True)
+    df.reset_index(inplace=True)
+    return px.line(df, x="Date", y=[col for col in df.columns if col != "Date"], title="Historical Drawdowns")
 
 
 app.layout = html.Div(
     [
         navbar,
-        dcc.Graph(figure=update_graph(), id="total-perf-graph"),
+        dcc.Graph(figure=update_returns_graph(), id="total-perf-graph"),
+        dcc.Graph(figure=update_drawdown_graph(), id="total-drawdown-graph"),
         html.Div(
             [
                 dash_table.DataTable(
