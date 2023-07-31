@@ -36,6 +36,7 @@ In this project, an in-depth statistical research and historical backtesting wil
 ### Keller's Asset Allocations
 
 - Lethargic Asset Allocation (LAA)
+- Vigilant Asset Allocation (VAA)
 
 
 
