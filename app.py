@@ -49,17 +49,17 @@ def update_drawdown_graph():
 app.layout = html.Div(
     [
         navbar,
-        dcc.Graph(figure=update_returns_graph(), id="total-perf-graph"),
-        dcc.Graph(figure=update_drawdown_graph(), id="total-drawdown-graph"),
         html.Div(
             [
-                dash_table.DataTable(
-                    update_table(),
-                    id="total-perf-table",
-                )
-            ]
+                dcc.Graph(figure=update_returns_graph(), id="total-perf-graph"),
+                dcc.Graph(figure=update_drawdown_graph(), id="total-drawdown-graph"),
+                html.Div(
+                    [dash_table.DataTable(update_table(), id="total-perf-table", style_cell={"textAlign": "center"})]
+                ),
+            ],
+            style={"margin": "0px 35px 0px 35px"},
         ),
-    ]
+    ],
 )
 
 
