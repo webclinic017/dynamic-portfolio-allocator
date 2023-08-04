@@ -24,7 +24,7 @@ In this project, an in-depth statistical research and historical backtesting wil
 
 ### Fixed Asset Allocations
 
-- Classic 60/40 Portfolio
+- Classic Equities 60 Bond 40 Portfolio
 - Permanent Portfolio
 - All Weather Portfolio
 
