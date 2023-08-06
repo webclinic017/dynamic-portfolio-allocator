@@ -37,7 +37,7 @@ In this project, an in-depth statistical research and historical backtesting wil
 
 - Lethargic Asset Allocation (LAA)
 - Vigilant Asset Allocation (VAA)
-- BAA
+- Bold Asset Allocation (BAA)
 
 
 
